@@ -1,0 +1,19 @@
+C:\Project\Test\Puzzle Game\bin\Debug\netcoreapp3.1\Puzzle Game.exe
+C:\Project\Test\Puzzle Game\bin\Debug\netcoreapp3.1\Puzzle Game.deps.json
+C:\Project\Test\Puzzle Game\bin\Debug\netcoreapp3.1\Puzzle Game.runtimeconfig.json
+C:\Project\Test\Puzzle Game\bin\Debug\netcoreapp3.1\Puzzle Game.runtimeconfig.dev.json
+C:\Project\Test\Puzzle Game\bin\Debug\netcoreapp3.1\Puzzle Game.dll
+C:\Project\Test\Puzzle Game\bin\Debug\netcoreapp3.1\Puzzle Game.pdb
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.csprojAssemblyReference.cache
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game_MarkupCompile.cache
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game_MarkupCompile.lref
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.g.resources
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.AssemblyInfoInputs.cache
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.AssemblyInfo.cs
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.csproj.CoreCompileInputs.cache
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.dll
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.pdb
+C:\Project\Test\Puzzle Game\obj\Debug\netcoreapp3.1\Puzzle Game.genruntimeconfig.cache
