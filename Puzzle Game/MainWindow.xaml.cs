@@ -122,12 +122,13 @@ namespace Puzzle_Game
                 ColumnDefinition colDef = new ColumnDefinition();
                 colDef.Width = new GridLength(0, GridUnitType.Auto);
                 PuzzleGrid.ColumnDefinitions.Add(colDef);
+                RowDefinition rd = new RowDefinition();
+                rd.Height = new GridLength(0, GridUnitType.Auto);
+                PuzzleGrid.RowDefinitions.Add(rd);
 
                 for (int j = 0; j < GridSize; j++)
                 {
-                    RowDefinition rd = new RowDefinition();
-                    rd.Height = new GridLength(0, GridUnitType.Auto);
-                    PuzzleGrid.RowDefinitions.Add(rd);
+
                     Button btn = new Button();
                     
                     btnLights[i, j] = btn;
