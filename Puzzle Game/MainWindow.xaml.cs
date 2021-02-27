@@ -30,14 +30,18 @@ namespace Puzzle_Game
             {
                 GSize.Items.Add(i);
             }
-
+            GSize.SelectedItem = 5;
         }
 
         private void Button_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
-            int btnY = ((btn.TabIndex - 1) % GridSize);
-            int btnX = (int)((btn.TabIndex - 1) / GridSize);
+
+            //Here we find clicked button aaray index
+
+            int btnY = ((btn.TabIndex - 1) % GridSize); //The remainder of tabindex dividing by the size of array is row index
+
+            int btnX = (int)((btn.TabIndex - 1) / GridSize);// The quotient of tabindex by size of array is Column index
 
             ToggleButtonColor(btn);
 
@@ -63,6 +67,22 @@ namespace Puzzle_Game
             }
 
             // MessageBox.Show(btn.TabIndex.ToString());
+            //In this illustration we will find buttons by their Tabindex or Index;
+
+            //Here LB = LeftButton Tabindex, RB = RightButton Tabindex, TB = TopButton Tabindex, DB = DownButton Tabindex;
+            //Let,  l = array length;
+            //i = Tabindex;
+            //LB = ((i / l) - 1) * l + (i % l);
+            //RB = ((i / l) + 1) * l + (i % l);
+            //Where LB and RB must be > 0 to < Tabindex;
+
+            //Let, x = (i - 1) % l;
+            //if x != 0
+            //then TB = (i - 1);
+            //y = (i + 1) % l;
+            //if y != 0
+            //then
+            //Db = (i + 1);
 
         }
 
@@ -109,8 +129,7 @@ namespace Puzzle_Game
                     rd.Height = new GridLength(0, GridUnitType.Auto);
                     PuzzleGrid.RowDefinitions.Add(rd);
                     Button btn = new Button();
-                    //btn.Content = "A";
-
+                    
                     btnLights[i, j] = btn;
                     btnLights[i, j].Content = j + (i * GridSize) + 1;
                     btnLights[i, j].Width = 90;
@@ -129,8 +148,9 @@ namespace Puzzle_Game
 
 
             }
+            // Here light turning on  randomly
             Random rnd = new Random();
-            //int month = rnd.Next(1, GridSize);
+           
             for (int k = 1; k <= rnd.Next(1, GridSize); k++)
             {
                 ToggleButtonColor(btnLights[rnd.Next(0, GridSize), rnd.Next(0, GridSize)]);

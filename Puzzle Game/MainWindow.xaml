@@ -18,7 +18,7 @@
             <Button FontSize="18" Width="120" Background="Lavender" x:Name="Reset" Content="Re-Start" Click="Reset_Click"></Button>
         </StackPanel>
 
-        <Grid Grid.Row="1" x:Name="PuzzleGrid" >
+        <Grid Grid.Row="1" x:Name="PuzzleGrid" Margin="5">
             <!--<Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
